@@ -2,7 +2,7 @@
   "version": "0.1.0",
   "name": "babel-plugin-copy-jsx-attribute",
   "description": "A babel plugin to copy one JSX attribute to another.\n\nOriginal use cas was copying `testID` to `accessibilityLabel` in non-production builds to enable test automation.",
-  "repository": "sylvanaar/babel-plugin-copy-jsx-attribute",
+  "repository": "https://github.com/sylvanaar/babel-plugin-copy-jsx-attribute.git",
   "author": "Jon S Akhtar <sylvanaar@mindspring.com>",
   "main": "lib/index.js",
   "devDependencies": {
