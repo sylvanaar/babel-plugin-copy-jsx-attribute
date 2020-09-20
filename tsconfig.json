@@ -5,10 +5,10 @@
     "esModuleInterop": true,
     "isolatedModules": true,
     "jsx": "react",
-    "lib": ["es6"],
+    "lib": ["es5"],
     "moduleResolution": "node",
     "baseUrl": ".",
-    "module": "ESNext",
+    "module": "commonjs",
     "rootDir": "src",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
@@ -18,12 +18,13 @@
     "noUnusedLocals": true,
     "pretty": true,
     "skipLibCheck": true,
-    "target": "ES2019",
+    "target": "ES5",
     "paths": {
       "@src/*": ["src/*"]
     },
     "resolveJsonModule": true,
     "outDir": "lib"
   },
+  "include": ["src"],
   "exclude": ["node_modules"]
 }

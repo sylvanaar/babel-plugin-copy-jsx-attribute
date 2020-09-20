@@ -17,7 +17,7 @@
   },
   "scripts": {
     "clean": "npx rimraf -rf lib",
-    "build": "babel src -d lib",
+    "build": "tsc",
     "example": "npm run build && babel example/input.jsx -o example/output.jsx",
     "test": "npm run build && jest",
     "test:watch": "npm run test -- --watch",
