@@ -22,7 +22,7 @@ Original use case was copying `testID` to `accessibilityLabel` in non-production
 <Label
   testID={`${props.testID}-error-label`}
   styles={errorStyles}
-  accesibilityLabel={`${props.testID}-error-label`}
+  accessibilityLabel={`${props.testID}-error-label`}
 >
   {props.constraints}
 </Label>
