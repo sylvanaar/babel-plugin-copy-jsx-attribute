@@ -27,7 +27,7 @@ export default function ({
             return;
 
           container.forEach((a: Record<string, any>) => {
-            if (a.name?.name !== SOURCE_ATTRIBUTE) return;
+            if (a.name?.name !== SOURCE_ATTRIBUTE || typeof(a.value) === "undefined") return;
             const identifier = t.jsxIdentifier(DEST_ATTRIBUTE);
             const attr = t.jsxAttribute(identifier, a.value);
             container.push(attr);

@@ -19,7 +19,7 @@
     "clean": "npx rimraf -rf lib",
     "build": "babel src -d lib",
     "example": "npm run build && babel example/input.jsx -o example/output.jsx",
-    "test": "jest",
+    "test": "npm run build && jest",
     "test:watch": "npm run test -- --watch",
     "prepublish": "npm run clean && npm run build"
   },
